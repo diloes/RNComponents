@@ -1,9 +1,9 @@
 import React from 'react';
-import {Animated, Button, StyleSheet, View} from 'react-native';
-import {useAnimation} from '../hooks/useAnimation';
+import { Animated, Button, StyleSheet, View } from 'react-native';
+import { useAnimation } from '../hooks/useAnimation';
 
 export const Animation101Screen = () => {
-  const {opacity, position, fadeIn, fadeOut, startMovingPosition} =
+  const { opacity, position, fadeIn, fadeOut, startMovingPosition } =
     useAnimation();
 
   return (
