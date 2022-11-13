@@ -1,4 +1,4 @@
-import {MenuItem} from '../interfaces/appInterfaces';
+import { MenuItem } from '../interfaces/appInterfaces';
 
 export const menuItems: MenuItem[] = [
   {
@@ -15,5 +15,10 @@ export const menuItems: MenuItem[] = [
     name: 'Switches',
     icon: 'toggle-outline',
     component: 'SwitchScreen',
+  },
+  {
+    name: 'Alerts',
+    icon: 'alert-circle-outline',
+    component: 'AlertScreen',
   },
 ];
