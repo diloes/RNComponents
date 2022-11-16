@@ -23,7 +23,7 @@ export const ModalScreen = () => {
           {/* Contenido del modal */}
           <View style={stylesModal.contenidoModal}>
             <HeaderTitle title="Modal" marginTop={1} color="brown" />
-            <Text style={{ color: 'black', marginBottom: 20, fontSize: 18 }}>Cuerpo del modal</Text>
+            <Text style={stylesModal.cuerpoModal}>Cuerpo del modal</Text>
             <Button title="Cerrar" onPress={() => setIsVisible(false)} />
           </View>
         </View>
@@ -46,5 +46,10 @@ const stylesModal = StyleSheet.create({
     shadowOpacity: 0.25, // sombra en iOS
     elevation: 10, // sombra en android
     borderRadius: 8,
+  },
+  cuerpoModal: {
+    color: 'black',
+    marginBottom: 20,
+    fontSize: 18,
   },
 });
